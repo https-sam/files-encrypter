@@ -19,13 +19,11 @@ This command generates a unique key in the current directory
 python3 main.py -a keygen
 ```
 
-# Usage
+# Usage / Flags
 
 IMPORTANT!! Make sure you have generated a key, before start encrypting / decrypting.
 By default, the program first calls the `activate()` method, which reads the key and initializes the `Crypt` class.
 
-
-# Flags
 
 Different flags can be passed to perform different operations.
 
