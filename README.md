@@ -16,7 +16,7 @@ So in order to get started, the key must be generated first.
 
 This command generates a unique key in the current directory
 ```
-python3 main.py keygen
+python3 main.py -a keygen
 ```
 
 # Usage
@@ -24,20 +24,42 @@ python3 main.py keygen
 IMPORTANT!! Make sure you have generated a key, before start encrypting / decrypting.
 By default, the program first calls the `activate()` method, which reads the key and initializes the `Crypt` class.
 
-There are different flags that can be passed.
 
-## arguments / flags
+## Flags
 
+Different flags can be passed to perform different operations.
+
+### -a (--action)
+the `-a` flag can be either:
 - encode
-```
-python3 main.py encode
-```
-when `encode` argument is passed, the program will encode all the data in the file(s)
-
-
 - decode
+- keygen
+
+Note that only one of them can be passed.
+
+### -f (--file) OR -d (--directory) followed by file / directory name
+example 
 ```
-python3 main.py ecode
+-f ./data.txt
+-d ./data/
 ```
-when `decode` argument is passed, the program will decode all the data in the file(s). 
-IMPORTANT!! Make sure that you're using the same key that was used for encoding, otherwise, the data will NOT be recovered.
+
+## Examples of valid arguments
+1) Encode all the files in `./data/` directory
+```
+python3 main.py -a encode -d ./data/
+```
+2) Encode the file named `./data.txt`
+```
+python3 main.py -a encode -f ./data.txt
+```
+
+3) Decode the file named `./data.txt`
+```
+python3 main.py -a decode -d ./data.txt
+```
+
+
+
+
+IMPORTANT Make sure that you're using the same key that was used to encode when decoding, otherwise, the data will NOT be recovered.
