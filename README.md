@@ -25,7 +25,7 @@ IMPORTANT!! Make sure you have generated a key, before start encrypting / decryp
 By default, the program first calls the `activate()` method, which reads the key and initializes the `Crypt` class.
 
 
-## Flags
+# Flags
 
 Different flags can be passed to perform different operations.
 
