@@ -13,7 +13,7 @@ class Crypt():
         self.key = filekey.read()
         self.keyName = keyname
     except:
-      raise "Invalid filename to the keyfile"
+      raise "Key file not found, please run 'python3 main.py -a keygen' to generate a key first."
 
 
   def keygen(self, keyname):
@@ -89,6 +89,10 @@ if __name__ == '__main__':
     raise "Target must be specified."
   
   cp = Crypt()
+
+  if args.action == "keygen":
+    cp.keygen('secret.key')
+
   cp.activate("secret.key")
 
   path = args.file or args.directory
@@ -98,6 +102,4 @@ if __name__ == '__main__':
     cp.encode(path, isDir)
   elif args.action == "decode":
     cp.decode(path, isDir)
-  elif args.action == "keygen":
-    cp.keygen('secret.key')
     
