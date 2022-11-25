@@ -1,4 +1,4 @@
-# files-encrypter
+# Files-encrypter
 
 # Getting Started
 This project utilizes the cryptography module
