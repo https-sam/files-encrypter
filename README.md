@@ -63,4 +63,5 @@ python3 main.py -a decode -d ./data.txt
 
 
 
-IMPORTANT Make sure that you're using the same key that was used to encode when decoding, otherwise, the data will NOT be recovered.
+IMPORTANT Make sure that you're using the same key that was used to encode when decoding, otherwise, the data will NOT be recovered. <br/>
+Author: Sam Goto
