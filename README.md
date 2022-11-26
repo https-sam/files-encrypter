@@ -6,7 +6,7 @@ The program encrypts / decrypts a file / entire directory with a unique encoded 
 
 This project is not intended for illegal use, and I will not be responsible for anything caused by this program. 
 
-To install the modules
+# Installation
 ```
 cd files-encrypter/
 pip3 install -r requirements.txt
