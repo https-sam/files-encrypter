@@ -8,6 +8,7 @@ The program encrypts / decrypts a file / entire directory with a unique encoded 
 1) This project is not intended for any illegal use. <br/>
 2) I will not be responsible for any damage / data loss caused by the use of this program. 
 
+
 # Installation
 ```
 cd files-encrypter/
