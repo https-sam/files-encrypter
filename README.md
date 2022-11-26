@@ -5,7 +5,8 @@ This project utilizes the python cryptography module.
 The program encrypts / decrypts a file / entire directory with a unique encoded 32-byte key, which makes the files unrecoverable without the private key. 
 
 # Disclaimer
-This project is not intended for any illegal use. Thus, I will not be responsible for anything caused by this program. 
+1) This project is not intended for any illegal use. <br/>
+2) I will not be responsible for any damage / data loss caused by the use of this program. 
 
 # Installation
 ```
