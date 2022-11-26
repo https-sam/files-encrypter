@@ -1,7 +1,10 @@
 # Files-encrypter
 
 # Getting Started
-This project utilizes the cryptography module
+This project utilizes the cryptography module.
+The program encrypts / decrypts a file / entire directory with a unique encoded 32-byte key, which makes the files unrecoverable without the private key. 
+
+This project is not intended for illegal use, and I will not be responsible for anything caused by this program. 
 
 To install the modules
 ```
