@@ -1,6 +1,6 @@
 # Files-encrypter
 
-# Getting Started
+# Overview
 This project utilizes the python cryptography module.
 The program encrypts / decrypts a file / entire directory with a unique encoded 32-byte key, which makes the files unrecoverable without the private key. 
 
