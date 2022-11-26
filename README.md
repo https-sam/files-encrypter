@@ -33,7 +33,6 @@ the `-a` flag can be either:
 - decode
 - keygen
 
-Note that only one of them can be passed.
 
 ### -f (--file) OR -d (--directory) followed by file / directory name
 example 
