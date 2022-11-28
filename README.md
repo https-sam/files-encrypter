@@ -20,7 +20,7 @@ pip3 install -r requirements.txt
 The algorithm uses a base64-encoded 32-byte key to encrypt & decrypt data, which must be kept secret. 
 So in order to get started, the key must be generated first.
 
-This command generates a unique key in the current directory
+This command generates a unique key in the current directory.
 ```
 python3 main.py -a keygen
 ```
